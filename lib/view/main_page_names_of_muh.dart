@@ -18,7 +18,7 @@ class MainPageNamesOfMuh extends StatelessWidget {
             children: [
             Flexible(
             child: CardSwiper(onUndo: (previousIndex, currentIndex, direction) => true,threshold: DateTime.april,
-              
+              // hy
               cardsCount: list["Names Of Muhammad Sawal"]!.length,
               cardBuilder: (context, index, percentThresholdX, percentThresholdY) =>
                Container(height: mediaQuery.size.height * 0.8,width: mediaQuery.size.width,
